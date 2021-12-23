@@ -16,7 +16,7 @@ export enum BorderRadius {
   'rounded' = '100px',
 }
 
-export enum BreakPoints { // all values are in px
+export enum BreakPoints {
   'tiny' = 320,
   'small' = 480,
   'medium' = 768,
