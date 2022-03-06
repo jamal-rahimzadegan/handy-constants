@@ -7,4 +7,6 @@ export default {
   ONLY_NUM: /^[0-9]$/,
   STR_AND_CURLY_BRACES: /{([^}]+)}/g,
   STR_BETWEEN_CURLY_BRACES: /[^{]+(?=\})/g,
+  GET_FILE_NAME: /\.[^/.]+$/,
+  GET_FILE_EXT: /\.[0-9a-z]+$/i,
 };
